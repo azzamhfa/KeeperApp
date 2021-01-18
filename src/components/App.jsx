@@ -8,7 +8,6 @@ function App() {
   const [notePost, setNotePost] = useState([]);
 
   function addPost(inputText) {
-    // console.log(inputText);
     setNotePost((prevValue) => {
       return [...prevValue, inputText];
     });
