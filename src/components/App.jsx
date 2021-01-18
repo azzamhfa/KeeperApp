@@ -25,7 +25,6 @@ function App() {
     <div>
       <Header />
       <CreateArea onAdd={addPost} />
-      {console.log(notePost)}
       {notePost.map((todoItem, index) => {
         return (
           <Note
