@@ -7,11 +7,6 @@ function CreateArea(props) {
     const { value, name } = event.target;
     console.log(event.target.name);
     setInputChange((prevValue) => {
-        // if (name==="title") {
-        //     return{ title: value, content: prevValue }
-        // }else{
-        //     return{ title: prevValue, content: value };
-        // }
 
       return name === "title"
         ? { title: value, content: prevValue.content }
